@@ -159,6 +159,31 @@ Archivo generado vía `nest generate --flat controller user`
 Implementación de controlador de posts
 Archivo generado vía `nest generate --flat controller post`
 
+Integración con Azure Functions
+[Procedimiento](https://trilon.io/blog/deploy-nestjs-azure-function)
+
+Instalar CLI de NestJS
+`npm i -g @nestjs/cli`
+✔ Package installation in progress... ☕
+Starting library setup...
+CREATE .funcignore (66 bytes)
+CREATE host.json (23 bytes)
+CREATE local.settings.json (116 bytes)
+CREATE proxies.json (72 bytes)
+CREATE main/function.json (294 bytes)
+CREATE main/index.ts (287 bytes)
+CREATE main/sample.dat (23 bytes)
+CREATE src/main.azure.ts (321 bytes)
+UPDATE package.json (2193 bytes)
+✔ Packages installed successfully.
+
+
+
+Añadir los esquemáticos de Azure Functions
+`nest add @nestjs/azure-func-http`
+
+
+
 
 
 
