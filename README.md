@@ -138,6 +138,11 @@ Crear modelos
 Ejecutar script de sincronización de la base de datos
 `npx prisma migrate dev --name init`
 
+[prisma.service.ts]
+Implementando servicio para abstraer el API Prisma Client para las consultas de datos
+Instanciar PrismaClient, establecer conexión a base de datos
+
+
 
 
 
