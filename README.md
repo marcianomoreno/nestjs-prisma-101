@@ -145,6 +145,12 @@ Instanciar PrismaClient, establecer conexión a base de datos
 `onModuleDestroy` no implementado, ya que Prisma cuenta con hooks para destruir la conexión.
 Consultar issues with [enableShutdownHooks](https://docs.nestjs.com/recipes/prisma#issues-with-enableshutdownhooks)
 
+[user.service.ts]
+Implementando consultas CRUD.
+
+[post.service.ts]
+Implementando consultas CRUD.
+
 
 
 
