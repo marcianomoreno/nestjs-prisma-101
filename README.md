@@ -123,4 +123,21 @@ Next steps:
 More information in our documentation:
 https://pris.ly/d/getting-started
 
+Configurar bases de datos
+Crear bases de datos por medio de ejecución de scripts 
+* create-resource-group.sh
+* create-azure-sql-datatabase-server.sh
+* create-main-db.sh
+* create-shadow-db.sh
+* create-azure-sql-database-firewall-rule.sh
+
+[schema.prisma]
+Configurar urls de bases de datos
+Crear modelos
+
+Ejecutar script de sincronización de la base de datos
+`npx prisma migrate dev --name init`
+
+
+
 
