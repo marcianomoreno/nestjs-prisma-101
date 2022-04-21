@@ -151,6 +151,14 @@ Implementando consultas CRUD.
 [post.service.ts]
 Implementando consultas CRUD.
 
+[user.controller.ts]
+Implementación de controlador de usuarios
+Archivo generado vía `nest generate --flat controller user`
+
+[post.controller.ts]
+Implementación de controlador de posts
+Archivo generado vía `nest generate --flat controller post`
+
 
 
 
