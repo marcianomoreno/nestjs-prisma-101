@@ -106,3 +106,4 @@ List of npm packages after creating the project via Nest cli `nest new hello-pri
 ├── tsconfig-paths@3.14.1
 └── typescript@4.6.3
 
+Installed prisma as dev dependency via `npm install prisma --save-dev`
