@@ -7,8 +7,8 @@ env:
   AZURE_FUNCTIONAPP_NAME: nestjsprisma101functionapp    # set this to your application's name
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '16.x'                     # set this to the node version to use (supports 8.x, 10.x, 12.x, 14.x)
-  DATABASE_URL = env.DATABASE_URL
-  SHADOW_DATABASE_URL = env.SHADOW_DATABASE_URL
+  DATABASE_URL: env.DATABASE_URL
+  SHADOW_DATABASE_URL: env.SHADOW_DATABASE_URL
 
 jobs:
   build-and-deploy:
