@@ -1,0 +1,1 @@
+az sql server firewall-rule create --resource-group $DATABASE_RESOURCE_GROUP_NAME --server $DATABASE_SERVER_NAME --name allow-local-acccess --start-ip-address $LOCAL_PUBLIC_IP --end-ip-address $LOCAL_PUBLIC_IP

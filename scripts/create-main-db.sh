@@ -1,0 +1,1 @@
+az sql db create --resource-group $DATABASE_RESOURCE_GROUP_NAME --server $DATABASE_SERVER_NAME --name $MAIN_DATABASE_NAME --service-objective Basic

@@ -1,0 +1,1 @@
+az sql server create -l germanywestcentral -g prisma-azure-example --name UNIQUE_DB_SERVER_NAME --admin-user prisma --admin-password CHOOSE_A_PASSWORD --enable-public-network true
