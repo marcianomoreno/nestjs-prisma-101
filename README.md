@@ -141,6 +141,9 @@ Ejecutar script de sincronización de la base de datos
 [prisma.service.ts]
 Implementando servicio para abstraer el API Prisma Client para las consultas de datos
 Instanciar PrismaClient, establecer conexión a base de datos
+`onModuleInit` es opcional
+`onModuleDestroy` no implementado, ya que Prisma cuenta con hooks para destruir la conexión.
+Consultar issues with [enableShutdownHooks](https://docs.nestjs.com/recipes/prisma#issues-with-enableshutdownhooks)
 
 
 
