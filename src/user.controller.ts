@@ -37,7 +37,7 @@ export class UserController {
     @Body() userData: { name?: string; email: string },
   ) {
     return this.userService.updateUser({
-      where: { id: id },
+      where: { id: Number(id) },
       data: userData,
     });
   }
