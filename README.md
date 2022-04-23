@@ -182,6 +182,14 @@ UPDATE package.json (2193 bytes)
 Añadir los esquemáticos de Azure Functions
 `nest add @nestjs/azure-func-http`
 
+Crear Azure FunctionApp
+FunctionApp creada por medio de extensión de VS Code
+
+[schema.prisma]
+Añadir generator client/binary target "windows"
+
+
+
 
 
 
