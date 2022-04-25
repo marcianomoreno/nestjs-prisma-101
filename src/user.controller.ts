@@ -15,27 +15,27 @@ export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Get(':id')
-  getUser(@Param('id') id: string): Promise<UserModel> {
+  async getUser(@Param('id') id: string): Promise<UserModel> {
     return this.userService.user({ id: Number(id) });
   }
 
   @Get()
-  getUsers(): Promise<UserModel[]> {
+  async getUsers(): Promise<UserModel[]> {
     return this.userService.users({});
   }
 
   @Post()
-  createUser(
+  async createUser(
     @Body() userData: { name?: string; email: string },
   ): Promise<UserModel> {
     return this.userService.createUser(userData);
   }
 
   @Put(':id')
-  updateUser(
+  async updateUser(
     @Param('id') id: number,
     @Body() userData: { name?: string; email: string },
-  ) {
+  ): Promise<UserModel> {
     return this.userService.updateUser({
       where: { id: Number(id) },
       data: userData,
@@ -43,7 +43,7 @@ export class UserController {
   }
 
   @Delete(':id')
-  deleteUser(@Param('id') id: number) {
+  async deleteUser(@Param('id') id: number): Promise<UserModel> {
     console.log(id);
     return this.userService.deleteUser({
       where: { id: Number(id) },
