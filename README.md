@@ -194,6 +194,9 @@ Añadir modelo Drum
 Ejecutar script de migración
 `npx prisma migrate dev --name Drum`
 
+Añadir servicio Drum
+`nest generate service drum`
+
 
 
 
