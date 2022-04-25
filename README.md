@@ -197,12 +197,10 @@ Ejecutar script de migración
 Añadir servicio Drum
 `nest generate service drum`
 
-
-
-
-
-
-
-
-
-
+[drum.service.ts]
+Implementar los siguientes métodos en el servicio Drum:
+* createDrum
+* getDrums
+* getDrum
+* updateDrum
+* deleteDrum
