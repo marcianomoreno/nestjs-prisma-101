@@ -188,6 +188,13 @@ FunctionApp creada por medio de extensión de VS Code
 [schema.prisma]
 Añadir generator client/binary target "windows"
 
+Añadir entidad Drum
+[schema.prisma]
+Añadir modelo Drum
+Ejecutar script de migración
+`npx prisma migrate dev --name Drum`
+
+
 
 
 

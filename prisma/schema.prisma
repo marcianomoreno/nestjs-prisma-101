@@ -27,3 +27,8 @@ model Post {
   author    User?    @relation(fields: [authorId], references: [id])
   authorId  Int?
 }
+
+model Drum {
+  id  Int @default(autoincrement()) @id
+  name  String
+}
