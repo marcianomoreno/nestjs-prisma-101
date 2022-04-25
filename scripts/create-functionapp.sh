@@ -1,0 +1,1 @@
+az functionapp create --name $FUNCTIONAPP_NAME --storage-account $STORAGE_ACCOUNT_NAME --consumption-plan-location $RESOURCE_GROUP_LOCATION --resource-group $RESOURCE_GROUP_NAME --deployment-source-url $FUNCTIONAPP_REPO_URL --deployment-source-branch main --functions-version $FUNCTIONS_VERSION --runtime $FUNCTIONS_RUNTIME --runtime-version $FUNCTIONS_RUNTIME_VERSION

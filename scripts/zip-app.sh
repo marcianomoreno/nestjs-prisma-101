@@ -1,0 +1,1 @@
+zip -r app.zip . --exclude @.funcignore --exclude .funcignore

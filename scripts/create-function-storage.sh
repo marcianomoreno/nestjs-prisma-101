@@ -1,0 +1,1 @@
+az storage account create --name $STORAGE_ACCOUNT_NAME --location $RESOURCE_GROUP_LOCATION --resource-group $RESOURCE_GROUP_NAME --sku $STORAGE_SKU

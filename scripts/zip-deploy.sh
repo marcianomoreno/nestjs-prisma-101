@@ -1,0 +1,1 @@
+az functionapp deployment source config-zip -g ${FUNCTIONAPP_RESOURCE_GROUP_NAME=nestjsprisma101linux-rg} -n ${FUNCTIONAPP_NAME} --src app.zip
