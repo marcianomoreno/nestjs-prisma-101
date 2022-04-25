@@ -204,3 +204,8 @@ Implementar los siguientes métodos en el servicio Drum:
 * getDrum
 * updateDrum
 * deleteDrum
+
+Añadir controlador Drum
+`nest generate controller drum`
+
+
